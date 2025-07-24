@@ -1,3 +1,6 @@
+body{
+    max-width: 1440px;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -33,8 +36,8 @@ ul{
     display: flex;
     align-items: center;
     margin: 120px 150px;
+    gap: 0px;
 }
-
 
 .noto-serif{
   font-family: "Noto Serif", serif;
@@ -44,19 +47,66 @@ ul{
   
 }
 .alw{
-    font-size: 65px;
-    
+    font-size: 50px;
+    font: bold;
+   flex-wrap: nowrap;
 
 }
+/* .img-1{
+    width: 670px;
+} */
 .colour-sp{
     color: #E95A08;
 }
 .para{
     color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
 }
+.ou-h1 h1{
+     justify-self: center;
+     font-size: 50px;
+}
+.ou-h1 p{
+    justify-self: center;
+    padding-left: 126px;
+    padding-right: 126px;
+    text-align: center;
+}
+.cart-box{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.our-plans{
+    margin: 0 150px;
+    align-self: center;
+}
+.item-box{
+    padding-bottom: 30px;
+}
+.item-box p{
+    justify-self: center;
+}
+.item-box img{
+    width: 100%;
+} 
 
-
-
+.item-box button{
+    width: 100%;
+    height: 50px;
+    font-size: 1rem;
+    color: white;
+    background-color: #E95A08;
+    border: none;
+}
+.lily{
+    color: black;
+    font-weight:400;
+}
+.lilyp{
+    color: black;
+    font-weight: bold;
+}
 
 
 
