@@ -1,5 +1,6 @@
 body{
     max-width: 1440px;
+    align-content: center;
 }
 header{
     display: flex;
@@ -38,7 +39,12 @@ ul{
     margin: 120px 150px;
     gap: 0px;
 }
-
+.always-part div{
+    width: 50%;
+}
+.img-1{
+    width: 100%;
+}
 .noto-serif{
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -106,6 +112,31 @@ ul{
 .lilyp{
     color: black;
     font-weight: bold;
+}
+.trust-part{
+    display: flex;
+    gap: 60px;
+    margin: 0 150px;
+    margin-top: 210px;
+    margin-bottom: 133px;
+}
+.trust-part div{
+    width: 50%;
+}
+.trust-ul{
+    display: block;
+    list-style-type: disc;
+    width: 100%;
+}
+.trust-ul li{
+    margin-bottom: 30px;
+}
+.trust-love{
+    font-size: 50px;
+    font-weight: bold;
+}
+.img-2{
+    width: 100%;
 }
 
 
