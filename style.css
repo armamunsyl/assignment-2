@@ -1,12 +1,13 @@
 body{
-    max-width: 1440px;
+    max-width: 1140px;
     align-content: center;
+    margin: 0 auto;
 }
 header{
     display: flex;
     justify-content: space-between;
-    margin: 30px 150px;
-    max-width: 1440px;
+    /* margin: 30px 150px; */
+    /* max-width: 1440px; */
     align-items: center;
 }
 header img{
@@ -36,7 +37,7 @@ ul{
 .always-part{
     display: flex;
     align-items: center;
-    margin: 120px 150px;
+    /* margin: 120px 150px; */
     gap: 0px;
 }
 .always-part div{
@@ -84,7 +85,7 @@ ul{
     gap: 10px;
 }
 .our-plans{
-    margin: 0 150px;
+    /* margin: 0 150px; */
     align-self: center;
 }
 .item-box{
@@ -116,7 +117,7 @@ ul{
 .trust-part{
     display: flex;
     gap: 60px;
-    margin: 0 150px;
+    /* margin: 0 150px; */
     margin-top: 210px;
     margin-bottom: 133px;
 }
@@ -149,7 +150,6 @@ ul{
     width: 50%;
     z-index: 10;
 }
-
 
 @media screen and (max-width: 576px) {
 
