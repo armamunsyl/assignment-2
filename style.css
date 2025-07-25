@@ -150,6 +150,113 @@ ul{
     width: 50%;
     z-index: 10;
 }
+.deal-img {
+  display: flex;
+  gap: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+}
+.deal-2img {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+}
+.deal-3img {
+  width: 60%;
+}
+.text-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  border-radius: 22px;
+}
+.text-img2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  border-radius: 22px;
+}
+.text-img2 h1{
+    font-size: 40px;
+}
+.text-img2 a{
+    font-size: 28px;
+    color: white;
+}
+.image1 a{
+    font-size: 16px;
+    color: white;
+    
+}
+.image2 a{
+    font-size: 16px;
+    color: white;
+    
+}
+.image1 h1{
+    font-size: 20px;
+}
+.image2 h1{
+    font-size: 20px;
+}
+
+
+.image-big{
+  background-image: url(assets/deal-zabo.png);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 22px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 320px;
+}
+.image1{
+  background-image: url(/assets/deal-bloom.png);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 22px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+.image2{
+  background-image: url(/assets/deal-ana.png);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 22px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
 
 @media screen and (max-width: 576px) {
 
