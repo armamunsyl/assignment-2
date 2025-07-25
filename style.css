@@ -237,7 +237,7 @@ ul{
   height: 320px;
 }
 .image1{
-  background-image: url(/assets/deal-bloom.png);
+  background-image: url(assets/deal-bloom.png);
   position: relative;
   background-size: cover;
   background-position: center;
@@ -249,7 +249,7 @@ ul{
   height: 150px;
 }
 .image2{
-  background-image: url(/assets/deal-ana.png);
+  background-image: url(assets/deal-ana.png);
   position: relative;
   background-size: cover;
   background-position: center;
