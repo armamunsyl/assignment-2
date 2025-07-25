@@ -283,7 +283,7 @@ ul{
 .join-body form {
   display: flex;
   width: 100%;
-  max-width: 600px;
+  max-width: 100%;
   margin: 0 auto;
   border-radius: 0px;
   overflow: hidden;
@@ -363,7 +363,196 @@ ul{
   transition: transform 0.3s;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 567px) {
 
-    
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 0 16px;
+    flex-wrap: wrap;
+  }
+  .rem{
+    display: none;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 8px;
+  }
+
+  .list-item {
+    margin: 0;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  .list-link {
+    word-break: keep-all;
+  }
+
+  .always-part {
+    flex-direction: column-reverse;
+    gap: 20px;
+    text-align: center;
+    padding: 0 16px;
+  }
+
+  .always-part div {
+    width: 100%;
+  }
+
+  .img-1 {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+  }
+
+  .alw {
+    font-size: 32px;
+  }
+
+  .para {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .ou-h1 h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .ou-h1 p {
+    padding: 0 16px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .cart-box {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 0 12px;
+  }
+
+  .trust-part {
+    flex-direction: column;
+    margin: 60px 0;
+    padding: 0 16px;
+  }
+
+  .trust-part div {
+    width: 100%;
+  }
+
+  .trust-love {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .trust-ul {
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+
+  .trust-ul li {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    overflow-wrap: break-word;
+  }
+
+  .badge {
+    display: none;
+  }
+
+  .deal-img {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 16px;
+  }
+
+  .deal-2img,
+  .deal-3img {
+    width: 100%;
+  }
+
+  .image1,
+  .image2,
+  .image-big {
+    height: 220px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  .text-img h1,
+  .text-img2 h1 {
+    font-size: 18px;
+  }
+
+  .text-img a,
+  .text-img2 a {
+    font-size: 14px;
+  }
+
+  .join-main {
+    /* padding: 40px 16px; */
+    background-size: cover;
+  }
+
+  .join-body h1 {
+    font-size: 22px;
+  }
+
+  .join-body form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+
+  .join-body input[type="email"] {
+    width: 60%;
+    border-radius: 5px 0 0 5px;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .join-body button {
+    width: 40%;
+    border-radius: 0 5px 5px 0;
+    padding: 12px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: left;
+    padding: 40px 16px;
+    gap: 30px;
+  }
+  .foot{
+    text-align: left;
+  }
+
+
+  .footer > div {
+    min-width: 100%;
+  }
+
+  .image-icon {
+    justify-content: left;
+    margin-top: 16px;
+  }
 }
